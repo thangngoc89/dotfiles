@@ -1,0 +1,7 @@
+[user]
+	email = hi@khoanguyen.me
+	name = Khoa Nguyen
+[commit]
+	gpgsign = true
+[core]
+	editor = vim
