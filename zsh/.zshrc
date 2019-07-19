@@ -22,7 +22,7 @@ export PATH=./node_modules/.bin:$PATH
 ##### ALIASES ########
 # git
 alias gco="git checkout"
-alias gcb="git checkout --branch"
+alias gcb="git checkout -b"
 alias gst="git status"
 alias gp="git push"
 alias gpl="git pull"
