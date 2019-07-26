@@ -32,3 +32,18 @@ alias bsbc="bsb -clean-world"
 alias bsbm="bsb -make-world"
 
 alias xclip='xclip -selection clipboard'
+
+# docker
+alias dkmc="docker-machine"
+alias dkc="docker-compose"
+
+machine () {
+	local name=$1
+	echo "Switching docker_host to $name"
+	if [[ $name -eq "local" ]]
+	then
+		eval $(docker-machine env -u)
+	else
+		eval $(docker-machine env $name)
+	fi
+}
