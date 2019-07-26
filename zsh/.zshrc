@@ -47,3 +47,10 @@ machine () {
 		eval $(docker-machine env $name)
 	fi
 }
+
+# tmux
+# should should be last line
+
+if [ -z "$TMUX" ]; then
+	tmux attach -t default || tmux new -s default
+fi
