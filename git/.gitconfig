@@ -2,6 +2,7 @@
 	email = hi@khoanguyen.me
 	name = Khoa Nguyen
 [commit]
-	gpgsign = true
+#	gpgsign = true
 [core]
 	editor = vim
+	excludesfile = /home/khoa/.gitignore
