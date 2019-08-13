@@ -1,9 +1,9 @@
 #/usr/bin/bash
-sudo apt install vim tmux zsh
+#sudo apt install vim tmux zsh pass
 
-sudo snap install code --classic
-sudo snap install chromium
+#sudo snap install code --classic
+#sudo snap install chromium
 
+chsh -s $(which zsh)
 zsh
-chsh -s =zsh
 

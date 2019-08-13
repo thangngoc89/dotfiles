@@ -8,6 +8,10 @@ export ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 # Start zim
 [[ -s ${ZIM_HOME}/init.zsh ]] && source ${ZIM_HOME}/init.zsh
 
+# Del + Lubuntul laptop specific 
+alias touchpad_off="xinput set-prop 18 \"Device Enabled\" 0"
+alias touchpad_on="xinput set-prop 18 \"Device Enabled\" 1"
+# Setup bin paths
 export PATH=/home/khoa/app:$PATH
 # fnm
 export PATH=/home/khoa/.fnm:$PATH
